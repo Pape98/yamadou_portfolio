@@ -1,0 +1,40 @@
+#menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+
+    .menu__home {
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 100%;
+        min-width: 3.5em;
+    }
+
+
+    .menu__right {
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 2em;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color:black;
+        }
+    }
+}
+
+.menu-item--selected {
+    border-bottom: 10px solid black;
+}

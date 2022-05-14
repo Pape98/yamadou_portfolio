@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #EFEFEF;
+  color: black
+}
+
+#mainContainer {
+  height: calc(100% - 6rem);
+}
+
+p {
+  line-height: 1.6rem;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.20rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.italic {
+  font-style: italic;
+}
