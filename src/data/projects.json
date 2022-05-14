@@ -3,54 +3,63 @@
     "title": "Forestry Board",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2022"
+    "year": "2022",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "qualitativeAnalysisTool": {
     "title": "Qualitative Analysis",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2022"
+    "year": "2022",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "employeeRelationshipManagement": {
     "title": "Employee Relationship Management Tool",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2021"
+    "year": "2021",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "itcVox": {
     "title": "ITC Vox",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2021"
+    "year": "2021",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "insectInvasion": {
     "title": "Insect Invasion",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2020"
+    "year": "2020",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "daliChallenge": {
     "title": "Fake Social Platform",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2020"
+    "year": "2020",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "careAssist": {
     "title": "Student Organization Management Tool",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2020"
+    "year": "2020",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "videoTaggingTool": {
     "title": "Student Organization Management Tool",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2019-2020"
+    "year": "2019-2020",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   },
   "slide": {
     "title": "Student Organization Management Tool",
     "description": "description",
     "githubLink": "isjdjdi",
-    "year": "2017-2018"
+    "year": "2017-2018",
+    "tags": ["Ruby on Rails,NodeJs,React,MongoDB"]
   }
 }

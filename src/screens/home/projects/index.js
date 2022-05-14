@@ -1,14 +1,13 @@
-import ProjectCard from './components/project-card';
-import { PageTitle } from '../../components';
+import { ProjectCard } from '../../../components';
 
-import projects from '../../data/projects.json';
+import projects from '../../../data/projects.json';
 import { nanoid } from 'nanoid';
 
 import './style.scss';
 
 const Projects = () => {
   const cards = Object.values(projects).map(project => (
-    <ProjectCard key={project.title} />
+    <ProjectCard key={nanoid()} project={project} />
   ));
 
   return (

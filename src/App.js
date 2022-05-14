@@ -1,9 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 
 import { Menu, Footer } from './components';
-
+import { Home } from './screens';
 import { ROUTES } from './constants';
-import Screens from './screens';
 
 const App = () => {
   return (
@@ -11,8 +10,7 @@ const App = () => {
       <Menu />
       <div id='mainContainer'>
         <Routes>
-          <Route path={ROUTES.home} element={<Screens.Home />} />
-          <Route path={ROUTES.projects} element={<Screens.Projects />} />
+          <Route path={ROUTES.home} element={<Home />} />
         </Routes>
       </div>
       <Footer />

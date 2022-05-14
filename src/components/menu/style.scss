@@ -1,9 +1,10 @@
 #menu {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 3rem;
+    margin-bottom: 2rem;
 
     .menu__home {
         background: black;

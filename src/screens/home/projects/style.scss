@@ -1,0 +1,13 @@
+#projects {
+    
+    display: flex; 
+    justify-content: center;
+    .projects__cards {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 400px));
+        justify-content: center;
+        grid-gap: 2rem;
+        padding: 0 0 5rem 0;
+    }
+}

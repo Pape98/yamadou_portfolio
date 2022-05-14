@@ -6,7 +6,7 @@ import './style.scss';
 const Menu = () => {
   return (
     <nav id='menu'>
-      <div className='menu__home'>PT</div>
+      {/* <div className='menu__home'>PT</div> */}
       <div className='menu__right'>
         <ul>
           <NavLink
