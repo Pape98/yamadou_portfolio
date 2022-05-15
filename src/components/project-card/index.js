@@ -1,17 +1,11 @@
 import { GithubFilled } from '@ant-design/icons';
+import { TAG_COLORS } from '../../constants';
 import { Tag } from '..';
 import './style.scss';
 
-const tagColors = {
-  'NodeJs': '#85ce24',
-  'Ruby on Rails': '#c60300',
-  'MongoDB': '#11934f',
-  'React': '#60dbfb',
-};
-
 const ProjectCard = ({ project }) => {
   const tags = project.tags[0].split(',').map(tag => {
-    return <Tag color={tagColors[tag]}>{tag}</Tag>;
+    return <Tag color={TAG_COLORS[tag]}>{tag}</Tag>;
   });
 
   return (
@@ -23,7 +17,8 @@ const ProjectCard = ({ project }) => {
             <GithubFilled />
           </a>
         </div>
-      </div>{' '}
+      </div>
+      <div className='cardImage'></div>
       <div className='cardSummary'>
         {' '}
         <p>

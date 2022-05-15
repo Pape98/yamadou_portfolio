@@ -1,10 +1,14 @@
 import { LinkedinFilled, GithubFilled } from '@ant-design/icons';
+import SenegalFlag from '../senegal-flag';
 import './style.scss';
 
 const Footer = () => {
   return (
     <div id='footer'>
-      <div>Developed by Pape Sow Traoré (2020)</div>
+      <div className="footer__name">Developed by Pape (2020)</div>
+      <div className="footer__love">
+        I love <SenegalFlag />
+      </div>
       <div className='footer__links'>
         <a href='https://www.linkedin.com/in/pape-sow-traore/' className='link'>
           <LinkedinFilled />
