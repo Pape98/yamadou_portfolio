@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { nanoid } from 'nanoid';
 
+import Carousel from './Carousel';
+
 import { Tag } from '..';
 import { StoreContext } from '../../contexts';
 import { ACTIONS, TAG_COLORS } from '../../constants';
@@ -46,7 +48,9 @@ const ProjectModal = () => {
       <div className='modalBackground' style={style} onClick={closeModal}></div>
       <div className='modal' style={style}>
         <div className='modal__content'>
-          <div className='images'>Images</div>
+          <div className='images'>
+            <Carousel />
+          </div>
           <div className='details'>
             <div className='label'>Year(s)</div>
             <div className='info'>{project.year}</div>
