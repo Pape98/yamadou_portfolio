@@ -9,3 +9,7 @@ export const TAG_COLORS = {
   'MongoDB': '#11934f',
   'React': '#60dbfb',
 };
+
+export const ACTIONS = {
+  SELECT_PROJECT: 'SELECT_PROJECT',
+};

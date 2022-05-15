@@ -1,4 +1,4 @@
-#intro {
+#home {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,9 +24,6 @@
     background-color: #f66b0e;
     border-color: #f66b0e;
 
-    svg {
-      transform: rotate(90deg);
-    }
   }
 
   .home__container {

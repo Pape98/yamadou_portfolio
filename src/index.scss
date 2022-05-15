@@ -8,10 +8,11 @@ html, body, #root {
   padding: 0;
   height: 100%;
   color: #1c1e21;
+  background-color: #fcfcfc;
 }
 
 #mainContainer {
-  height: calc(100% - 3rem);
+  height: calc(100% - 6rem);
 }
 
 p {

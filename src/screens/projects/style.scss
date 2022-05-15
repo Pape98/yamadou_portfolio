@@ -1,0 +1,10 @@
+#projects {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .projects__cards {
+        width: 50%;
+    }
+}

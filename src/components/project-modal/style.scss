@@ -1,0 +1,35 @@
+#modal {
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80%;
+  border-radius: 50px;
+  background-color: white;
+
+
+
+  .modal__content {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+
+    .images {
+      height: 100%;
+    }
+
+    .details {
+      height: 100%;
+    }
+
+    .summary {
+      height: 100%;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+
+  }
+}

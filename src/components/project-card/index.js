@@ -1,32 +1,52 @@
+import { useContext } from 'react';
 import { GithubFilled } from '@ant-design/icons';
-import { TAG_COLORS } from '../../constants';
+import { nanoid } from 'nanoid';
+
+import { StoreContext } from '../../contexts';
+import { ACTIONS, TAG_COLORS } from '../../constants';
 import { Tag } from '..';
 import './style.scss';
 
 const ProjectCard = ({ project }) => {
-  const tags = project.tags[0].split(',').map(tag => {
-    return <Tag color={TAG_COLORS[tag]}>{tag}</Tag>;
+  const { dispatch } = useContext(StoreContext);
+
+  const tags = project.tags.split(',').map(tag => {
+    return (
+      <Tag key={nanoid()} color={TAG_COLORS[tag]}>
+        {tag}
+      </Tag>
+    );
   });
 
   return (
-    <div className='projectCard'>
-      <div className='cardTitleLink'>
-        <h2 className='cardTitle'>{project.title}</h2>
-        <div className='cardLink'>
-          <a href='www.github.com'>
-            <GithubFilled />
-          </a>
+    <div
+      className='projectCard'
+      onClick={() =>
+        dispatch({ type: ACTIONS.SELECT_PROJECT, payload: project })
+      }
+    >
+      <div className='card__left'>
+        <div className='cardImage'></div>
+      </div>
+
+      <div className='card__right'>
+        <div className='cardTitleLink'>
+          <h2 className='cardTitle'>{project.title}</h2>
+          <div className='cardLink'>
+            <a href='www.github.com'>
+              <GithubFilled />
+            </a>
+          </div>
         </div>
+        <div className='cardSummary'>
+          {' '}
+          <p>
+            A wiki dressed up as a streaming platform that catalogs fictional
+            films and tv shows inside real movies and tv shows.
+          </p>{' '}
+        </div>
+        <div className='cardTags'>{tags}</div>
       </div>
-      <div className='cardImage'></div>
-      <div className='cardSummary'>
-        {' '}
-        <p>
-          A wiki dressed up as a streaming platform that catalogs fictional
-          films and tv shows inside real movies and tv shows.
-        </p>{' '}
-      </div>
-      <div className='cardTags'>{tags}</div>
     </div>
   );
 };

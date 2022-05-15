@@ -1,6 +1,6 @@
-import { ProjectCard, PageTitle } from '../../../components';
+import { ProjectCard, PageTitle, ProjectModal } from '../../components';
 
-import projects from '../../../data/projects.json';
+import projects from '../../data/projects.json';
 import { nanoid } from 'nanoid';
 
 import './style.scss';
@@ -12,6 +12,7 @@ const Projects = () => {
 
   return (
     <div id='projects'>
+      {/* <ProjectModal/> */}
       <PageTitle title='PROJECTS' />
       <div className='projects__cards'>{cards}</div>
     </div>

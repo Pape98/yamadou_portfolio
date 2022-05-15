@@ -1,3 +1,11 @@
 import Home from './home';
+import Projects from './projects';
 
-export { Home };
+const Screens = ({ children }) => {
+  return { children };
+};
+
+Screens.Home = Home;
+Screens.Projects = Projects;
+
+export default Screens;
