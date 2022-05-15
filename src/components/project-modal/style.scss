@@ -75,7 +75,7 @@
 .carouselImage {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   min-height: 500px;
 }
