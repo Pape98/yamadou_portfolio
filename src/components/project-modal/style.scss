@@ -10,7 +10,7 @@
 .modal {
   position: fixed;
   top: 10%;
-  width: 50%;
+  width: 40%;
   left: 30%;
   height: 80%;
   border-radius: 25px;
@@ -78,4 +78,37 @@
   width: 100%;
   min-height: 500px;
   border-radius: 25px 25px 0 0;
+}
+
+@media only screen and (max-width: 1622px) {
+  .modal {
+    width: 60%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1035px) {
+  .modal {
+    width: 70%;
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 617px) {
+  .modal {
+    width: 80%;
+    left: 10%;
+
+    .images {
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .modal {
+    width: 90%;
+    left: 5%;
+  }
 }

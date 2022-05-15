@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -13,16 +15,20 @@ html, body, #root {
 
 #mainContainer {
   height: calc(100% - 6rem);
+  margin-top: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
   line-height: 1.6rem;
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 1.20rem;
-}
-
-h1, h2, h3 {
-  font-family: 'Source Serif Pro', serif;
 }
 
 .italic {

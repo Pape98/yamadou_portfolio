@@ -28,8 +28,8 @@ const App = () => {
   return (
     <>
       <StoreContext.Provider value={{ state, dispatch }}>
+        <Menu />
         <div id='mainContainer'>
-          <Menu />
           <Routes>
             <Route path={ROUTES.home} element={<Screens.Home />} />
             <Route path={ROUTES.projects} element={<Screens.Projects />} />

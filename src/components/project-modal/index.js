@@ -59,7 +59,9 @@ const ProjectModal = () => {
           </div>
           <div className='summary'>
             <div className='label'>{project.title}</div>
-            <div>{project.description}</div>
+            <div>
+              <p>{project.description}</p>
+            </div>
           </div>
         </div>
       </div>

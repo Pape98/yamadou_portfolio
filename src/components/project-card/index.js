@@ -31,7 +31,7 @@ const ProjectCard = ({ project }) => {
 
       <div className='card__right'>
         <div className='cardTitleLink'>
-          <h2 className='cardTitle'>{project.title}</h2>
+          <h4 className='cardTitle'>{project.title}</h4>
           <div className='cardLink'>
             <a href='www.github.com'>
               <GithubFilled />

@@ -1,15 +1,13 @@
 #pageTitle {
-    height: 18vh;
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
     width: 300px;
+    margin: 2rem 0;
 
     h1 {
         margin: 0;
         font-size: 2.5em;
-        font-family: Source Sans 3, sans-serif !important;
     }
 
     .title__bar {
