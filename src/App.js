@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { useReducer, useEffect } from 'react';
+import { useReducer } from 'react';
 
 import { ACTIONS } from './constants';
 import { StoreContext } from './contexts';
@@ -15,6 +15,8 @@ const reducer = (state, action) => {
   switch (action.type) {
     case ACTIONS.SELECT_PROJECT:
       return { ...state, selectedProject: action.payload };
+    case ACTIONS.DESELECT_PROJECT:
+      return { ...state, selectedProject: {} };
     default:
       return;
   }

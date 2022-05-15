@@ -12,9 +12,9 @@ const Projects = () => {
 
   return (
     <div id='projects'>
-      {/* <ProjectModal/> */}
       <PageTitle title='PROJECTS' />
       <div className='projects__cards'>{cards}</div>
+      <ProjectModal />
     </div>
   );
 };

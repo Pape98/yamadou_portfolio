@@ -40,10 +40,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className='cardSummary'>
           {' '}
-          <p>
-            A wiki dressed up as a streaming platform that catalogs fictional
-            films and tv shows inside real movies and tv shows.
-          </p>{' '}
+          <p>{project.summary}</p>{' '}
         </div>
         <div className='cardTags'>{tags}</div>
       </div>

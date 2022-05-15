@@ -12,4 +12,5 @@ export const TAG_COLORS = {
 
 export const ACTIONS = {
   SELECT_PROJECT: 'SELECT_PROJECT',
+  DESELECT_PROJECT: 'DESELECT_PROJECT',
 };

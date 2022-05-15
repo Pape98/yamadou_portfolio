@@ -1,65 +1,74 @@
 {
   "forestryBoard": {
     "title": "Forestry Board",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2022",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "qualitativeAnalysisTool": {
     "title": "Qualitative Analysis",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2022",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "employeeRelationshipManagement": {
     "title": "Employee Relationship Management Tool",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2021",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "itcVox": {
     "title": "ITC Vox",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2021",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "insectInvasion": {
     "title": "Insect Invasion",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "daliChallenge": {
     "title": "Fake Social Platform",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "careAssist": {
     "title": "Student Organization Management Tool",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "videoTaggingTool": {
     "title": "Student Organization Management Tool",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2019-2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   },
   "slide": {
     "title": "Student Organization Management Tool",
-    "description": "description",
+    "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2017-2018",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB"
+    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
   }
 }
