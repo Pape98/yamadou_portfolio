@@ -1,4 +1,7 @@
 import { ArrowRightOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
+import { ROUTES } from '../../constants';
+
 import { SenegalFlag } from '../../components';
 import './style.scss';
 
@@ -20,10 +23,10 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className='homeButton'>
+      <Link to={ROUTES.projects} className='homeButton'>
         <div className='button__text'>View My Projects </div>
         <ArrowRightOutlined />
-      </div>
+      </Link>
     </div>
   );
 };

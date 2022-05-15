@@ -1,74 +1,159 @@
 {
+  "communityGarden": {
+    "title": "Community Garden",
+    "summary": "Lundi matin, le roi, sa femme, et le petit prince sont venus chez moi pour me serrer la main. Mais comme j'etais pas la ",
+    "githubLink": "isjdjdi",
+    "year": "2022",
+    "tags": "iOS,Swift,SwiftUI,SpriteKit,Firebase",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "images": []
+  },
   "forestryBoard": {
     "title": "Forestry Board",
     "summary": "Lundi matin, le roi, sa femme, et le petit prince sont venus chez moi pour me serrer la main. Mais comme j'etais pas la ",
     "githubLink": "isjdjdi",
-    "year": "2022",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "year": "2022 - Present",
+    "tags": "React,Redux,Firebase",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "images": []
   },
   "qualitativeAnalysisTool": {
     "title": "Qualitative Analysis",
     "summary": "description",
-    "githubLink": "isjdjdi",
+    "githubLink": "https://github.com/Pape98/Qualitative-Analysis-Tool",
     "year": "2022",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "tags": "React,Redux,Firebase,Drive API",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "images": []
   },
   "employeeRelationshipManagement": {
     "title": "Employee Relationship Management Tool",
     "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2021",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "tags": "React,Microsoft Azure,Redux,PostgreSQL",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "preview":"https://i.ibb.co/b36pSc7/Screen-Shot-2022-05-15-at-16-01-36.png",
+    "images": [
+      "https://i.ibb.co/CvxWNjK/Screen-Shot-2022-05-15-at-16-00-47.png",
+      "https://i.ibb.co/71hvX2n/Screen-Shot-2022-05-15-at-16-01-17.png",
+      "https://i.ibb.co/b36pSc7/Screen-Shot-2022-05-15-at-16-01-36.png",
+      "https://i.ibb.co/r3xsCKN/Screen-Shot-2022-05-15-at-16-02-34.png",
+      "https://i.ibb.co/NCF25Yx/Screen-Shot-2022-05-15-at-16-02-39.png",
+      "https://i.ibb.co/ThrLYsB/Screen-Shot-2022-05-15-at-16-02-43.png",
+      "https://i.ibb.co/PQmwKP7/Screen-Shot-2022-05-15-at-16-02-51.png",
+      "https://i.ibb.co/yRxBTfC/Screen-Shot-2022-05-15-at-16-02-58.png",
+      "https://i.ibb.co/hKZv9QZ/Screen-Shot-2022-05-15-at-16-03-17.png"
+    ]
   },
   "itcVox": {
     "title": "ITC Vox",
     "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2021",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "tags": "Ruby on Rails,PostgreSQL,React,Redux",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "images": []
   },
   "insectInvasion": {
-    "title": "Insect Invasion",
+    "title": "Insect Invasion Model",
     "summary": "description",
     "githubLink": "isjdjdi",
-    "year": "2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "year": "2021",
+    "tags": "React,Redux,NodeJS,PostgreSQL",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "images": []
+  },
+  "signLanguage": {
+    "title": "Sign Language",
+    "summary": "description",
+    "githubLink": "isjdjdi",
+    "year": "2021",
+    "tags": "Virtual Reality,C#,Unity Engine",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "images": []
   },
   "daliChallenge": {
     "title": "Fake Social Platform",
     "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "tags": "NodeJS,Express",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "preview": "https://i.ibb.co/30Kwm46/Screen-Shot-2022-05-15-at-15-42-40.png",
+    "images": [
+      "https://i.ibb.co/DRCdCfg/Screen-Shot-2022-05-15-at-15-42-29.png",
+      "https://i.ibb.co/30Kwm46/Screen-Shot-2022-05-15-at-15-42-40.png",
+      "https://i.ibb.co/DVmz6X7/Screen-Shot-2022-05-15-at-15-42-54.png",
+      "https://i.ibb.co/0934zkp/Screen-Shot-2022-05-15-at-15-43-02.png",
+      "https://i.ibb.co/XSTKf7X/Screen-Shot-2022-05-15-at-15-43-12.png",
+      "https://i.ibb.co/PtvRHkQ/Screen-Shot-2022-05-15-at-15-43-37.png",
+      "https://i.ibb.co/sRNm93Y/Screen-Shot-2022-05-15-at-15-43-49.png"
+    ]
   },
   "careAssist": {
-    "title": "Student Organization Management Tool",
+    "title": "CareAssist: Assistive Technology",
     "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "tags": "NodeJS,ExpressJS,MongoDB,PassportJS,Here API",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "preview": "https://i.ibb.co/g3Ds06J/Screen-Shot-2022-05-15-at-15-38-28.png",
+    "images": [
+      "https://i.ibb.co/875YzF7/Screen-Shot-2022-05-15-at-15-37-04.png",
+      "https://i.ibb.co/whgYFZK/Screen-Shot-2022-05-15-at-15-37-09.png",
+      "https://i.ibb.co/CBmHvbq/Screen-Shot-2022-05-15-at-15-37-18.png",
+      "https://i.ibb.co/f44ZMrf/Screen-Shot-2022-05-15-at-15-37-24.png",
+      "https://i.ibb.co/bPBV7fN/Screen-Shot-2022-05-15-at-15-37-31.png",
+      "https://i.ibb.co/YZxMt4Y/Screen-Shot-2022-05-15-at-15-37-35.png",
+      "https://i.ibb.co/XXWqQPY/Screen-Shot-2022-05-15-at-15-37-41.png",
+      "https://i.ibb.co/xgyjxF9/Screen-Shot-2022-05-15-at-15-37-52.png",
+      "https://i.ibb.co/17ZNJsB/Screen-Shot-2022-05-15-at-15-38-03.png",
+      "https://i.ibb.co/WWtc1W6/Screen-Shot-2022-05-15-at-15-38-12.png",
+      "https://i.ibb.co/0sVtYrT/Screen-Shot-2022-05-15-at-15-38-19.png",
+      "https://i.ibb.co/g3Ds06J/Screen-Shot-2022-05-15-at-15-38-28.png"
+    ]
   },
   "videoTaggingTool": {
-    "title": "Student Organization Management Tool",
+    "title": "Video Tagging Tool",
     "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2019-2020",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "tags": "Ruby on Rails,MongoDB,Phusion Passenger",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "preview": "https://i.ibb.co/SBYnWMQ/Screen-Shot-2022-05-15-at-15-31-50.png",
+    "images": [
+      "https://i.ibb.co/GfDPSYs/Screen-Shot-2022-05-15-at-15-31-35.png",
+      "https://i.ibb.co/SBYnWMQ/Screen-Shot-2022-05-15-at-15-31-50.png",
+      "https://i.ibb.co/BjrCP99/Screen-Shot-2022-05-15-at-15-32-03.png",
+      "https://i.ibb.co/Jkm8HzZ/Screen-Shot-2022-05-15-at-15-32-13.png",
+      "https://i.ibb.co/SXc5yzm/Screen-Shot-2022-05-15-at-15-32-20.png",
+      "https://i.ibb.co/XLhvKG9/Screen-Shot-2022-05-15-at-15-32-27.png",
+      "https://i.ibb.co/XW1R3xm/Screen-Shot-2022-05-15-at-15-32-33.png",
+      "https://i.ibb.co/wrB16ZC/Screen-Shot-2022-05-15-at-15-32-38.png",
+      "https://i.ibb.co/1T3FStR/Screen-Shot-2022-05-15-at-15-32-44.png"
+    ]
   },
   "slide": {
     "title": "Student Organization Management Tool",
     "summary": "description",
     "githubLink": "isjdjdi",
     "year": "2017-2018",
-    "tags": "Ruby on Rails,NodeJs,React,MongoDB",
-    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna."
+    "tags": "NodeJS,ExpressJS,MongoDB,PassportJS",
+    "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
+    "preview": "https://i.ibb.co/qBd8d2P/Screen-Shot-2022-05-15-at-15-10-10.png",
+    "images": [
+      "https://i.ibb.co/qBd8d2P/Screen-Shot-2022-05-15-at-15-10-10.png",
+      "https://i.ibb.co/BZrrvWd/Screen-Shot-2022-05-15-at-15-10-49.png",
+      "https://i.ibb.co/G9VGQG7/Screen-Shot-2022-05-15-at-15-11-05.png",
+      "https://i.ibb.co/kG4NrY1/Screen-Shot-2022-05-15-at-15-11-12.png",
+      "https://i.ibb.co/J5FYMh0/Screen-Shot-2022-05-15-at-15-11-19.png",
+      "https://i.ibb.co/7QHfKt5/Screen-Shot-2022-05-15-at-15-11-44.png",
+      "https://i.ibb.co/2cGYkkv/Screen-Shot-2022-05-15-at-15-11-51.png",
+      "https://i.ibb.co/k2N3Kqv/Screen-Shot-2022-05-15-at-15-12-04.png",
+      "https://i.ibb.co/n7bzhSF/Screen-Shot-2022-05-15-at-15-12-18.png",
+      "https://i.ibb.co/rQNN7BL/Screen-Shot-2022-05-15-at-15-12-26.png",
+      "https://i.ibb.co/Lh5xxbs/Screen-Shot-2022-05-15-at-15-12-53.png"
+    ]
   }
 }

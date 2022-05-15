@@ -18,6 +18,8 @@ const ProjectModal = () => {
   const [display, setDisplay] = useState(DISPLAY.none);
   const { dispatch, state } = useContext(StoreContext);
   const { selectedProject: project } = state;
+
+  console.log(project);
   const style = {
     display: display,
   };
@@ -49,7 +51,7 @@ const ProjectModal = () => {
       <div className='modal' style={style}>
         <div className='modal__content'>
           <div className='images'>
-            <Carousel />
+            <Carousel images={project.images ? project.images : []} />
           </div>
           <div className='details'>
             <div className='label'>Year(s)</div>

@@ -26,7 +26,12 @@ const ProjectCard = ({ project }) => {
       }
     >
       <div className='card__left'>
-        <div className='cardImage'></div>
+        <div
+          className='cardImage'
+          style={{
+            backgroundImage: `url(${project.preview ? project.preview : ''})`,
+          }}
+        ></div>
       </div>
 
       <div className='card__right'>
