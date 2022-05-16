@@ -58,7 +58,13 @@
     "year": "2021",
     "tags": "React,Redux,NodeJS,PostgreSQL",
     "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
-    "images": []
+    "preview": "https://i.ibb.co/85hGJMP/Screen-Shot-2022-05-15-at-5-44-36-PM.png",
+    "images": [
+      "https://i.ibb.co/F4yYyJm/Screen-Shot-2022-05-15-at-5-44-18-PM.png",
+      "https://i.ibb.co/85hGJMP/Screen-Shot-2022-05-15-at-5-44-36-PM.png",
+      "https://i.ibb.co/bKHHjRr/Screen-Shot-2022-05-15-at-5-44-50-PM.png",
+      "https://i.ibb.co/80X5Q5z/Screen-Shot-2022-05-15-at-5-43-58-PM.png"
+    ]
   },
   "signLanguage": {
     "title": "Sign Language",
@@ -67,7 +73,14 @@
     "year": "2021",
     "tags": "Virtual Reality,C#,Unity Engine",
     "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
-    "images": []
+    "preview":"https://i.ibb.co/sbKcrQh/Screen-Shot-2022-05-16-at-2-08-46-AM.png",
+    "images": [
+      "https://i.ibb.co/9y3FpJL/Screen-Shot-2022-05-16-at-2-09-35-AM.png",
+      "https://i.ibb.co/H7nB7hx/Screen-Shot-2022-05-16-at-2-09-18-AM.png",
+      "https://i.ibb.co/sbKcrQh/Screen-Shot-2022-05-16-at-2-08-46-AM.png",
+      "https://i.ibb.co/3p5mCTC/Screen-Shot-2022-05-16-at-2-08-38-AM.png",
+      "https://i.ibb.co/1K8sgpF/Screen-Shot-2022-05-16-at-2-08-14-AM.png"
+    ]
   },
   "daliChallenge": {
     "title": "Fake Social Platform",
@@ -76,8 +89,15 @@
     "year": "2020",
     "tags": "NodeJS,Express",
     "description": "Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.",
-    "preview": "",
-    "images": []
+    "preview": "https://i.ibb.co/tcKDGqj/Screen-Shot-2022-05-15-at-5-26-26-PM.png",
+    "images": [
+      "https://i.ibb.co/tcKDGqj/Screen-Shot-2022-05-15-at-5-26-26-PM.png",
+      "https://i.ibb.co/phYN9zZ/Screen-Shot-2022-05-15-at-5-26-34-PM.png",
+      "https://i.ibb.co/hVHn1JT/Screen-Shot-2022-05-15-at-5-26-42-PM.png",
+      "https://i.ibb.co/jyRm0sx/Screen-Shot-2022-05-15-at-5-27-21-PM.png",
+      "https://i.ibb.co/Kjsrj2D/Screen-Shot-2022-05-15-at-5-27-44-PM.png",
+      "https://i.ibb.co/0f7x5ZJ/Screen-Shot-2022-05-15-at-5-26-16-PM.png"
+    ]
   },
   "careAssist": {
     "title": "CareAssist: Assistive Technology",
