@@ -7,7 +7,7 @@ import 'react-medium-image-zoom/dist/styles.css';
 const ImageCarousel = ({ images }) => {
   const carouselItems = images.map(url => {
     return (
-      <Carousel.Item>
+      <Carousel.Item key={url}>
         <div
           className='carouselImage'
           style={{

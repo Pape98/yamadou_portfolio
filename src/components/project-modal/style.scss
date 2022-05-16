@@ -10,12 +10,37 @@
 .modal {
   position: fixed;
   top: 10%;
-  width: 40%;
-  left: 30%;
+  width: 50%;
+  left: 25%;
   height: 80%;
   background-color: white;
   animation: showModal 0.5s;
-  
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .modal__topBar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+    height: 30px;
+
+    i {
+      padding: 10px 10px 10px 0;
+      cursor: pointer;
+    }
+  }
+
+  .cardLink {
+    svg {
+      font-size: 1.5em;
+      color: #f66b0e;
+    }
+  }
 
   .tag {
     max-width: 50%;
@@ -26,12 +51,18 @@
     margin-top: 10px;
   }
 
+  .modal__yearLink {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .modal__content {
     display: grid;
-    grid-template-columns: repeat(1fr,3);
-    grid-template-rows: repeat(1fr,4);
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(1fr, 4);
     height: 100%;
     grid-gap: 0.01rem;
+    margin-top: 30px;
 
     .images {
       height: 100%;

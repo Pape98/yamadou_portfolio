@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-import { GithubFilled } from '@ant-design/icons';
 import { nanoid } from 'nanoid';
 
 import { StoreContext } from '../../contexts';
@@ -21,9 +20,10 @@ const ProjectCard = ({ project }) => {
   return (
     <div
       className='projectCard'
-      onClick={() =>
-        dispatch({ type: ACTIONS.SELECT_PROJECT, payload: project })
-      }
+      onClick={e => {
+        dispatch({ type: ACTIONS.SELECT_PROJECT, payload: project });
+        console.log(e);
+      }}
     >
       <div className='card__left'>
         <div
@@ -35,19 +35,24 @@ const ProjectCard = ({ project }) => {
       </div>
 
       <div className='card__right'>
-        <div className='cardTitleLink'>
-          <h4 className='cardTitle'>{project.title}</h4>
-          <div className='cardLink'>
-            <a href='www.github.com'>
-              <GithubFilled />
-            </a>
+        <div>
+          <div className='cardTitleLink'>
+            <h5 className='cardTitle'>{project.title}</h5>
+          </div>
+          <div className='cardSummary'>
+            {' '}
+            <p>{project.summary}</p>{' '}
+          </div>
+          <div className='cardTags'>{tags}</div>
+        </div>
+        <div className='metadata'>
+          <div className='metadata__icons'>
+            {project.githubLink.length === 0 && <i className='lock icon'></i>}
+            <i
+              className={`${project.isTeamProject ? 'users' : 'user'} icon`}
+            ></i>
           </div>
         </div>
-        <div className='cardSummary'>
-          {' '}
-          <p>{project.summary}</p>{' '}
-        </div>
-        <div className='cardTags'>{tags}</div>
       </div>
     </div>
   );

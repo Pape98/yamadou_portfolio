@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 1fr;
   margin-bottom: 2.5em;
 
-  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  box-shadow: 1px 1px 2px 0 rgb(34 36 38 / 15%);
   padding: 2em;
   border-radius: 10px;
   border: 1px solid rgba(34,36,38,.15);
@@ -19,11 +19,6 @@
 
   p {
     margin: 0;
-  }
-
-  svg {
-    font-size: 1.5em;
-    color: #f66b0e;
   }
 
   .cardTitleLink {
@@ -48,6 +43,7 @@
 
   .cardSummary p {
     margin-bottom: 1rem;
+    font-size: 1em;
   }
 
   .cardTags {
@@ -55,6 +51,25 @@
     gap: 10px;
     flex-wrap:  wrap;
     color: white;
+  }
+
+  .card__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    .metadata {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .metadata__icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 7px;
+    }
   }
 }
 
