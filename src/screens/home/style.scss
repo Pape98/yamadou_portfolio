@@ -104,3 +104,13 @@
    
   }
 }
+
+@media only screen and (max-width: 765px) {
+  #home .home__container .container__text {
+    text-align: center;
+  }
+
+  #home .home__container  {
+    gap: 1.5em;
+  }
+}

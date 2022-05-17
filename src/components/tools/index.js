@@ -8,7 +8,11 @@ const Tools = () => {
   const tagsList = [];
 
   for (let [tag, color] of Object.entries(TAG_COLORS)) {
-    tagsList.push(<Tag color={'#e0e1e2'}>{tag}</Tag>);
+    tagsList.push(
+      <Tag key={color} color={'#e0e1e2'}>
+        {tag}
+      </Tag>
+    );
   }
   return (
     <div className='tools'>
