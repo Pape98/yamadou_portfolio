@@ -22,16 +22,24 @@ const ProjectCard = ({ project }) => {
       className='projectCard'
       onClick={e => {
         dispatch({ type: ACTIONS.SELECT_PROJECT, payload: project });
-        console.log(e);
       }}
     >
       <div className='card__left'>
-        <div
-          className='cardImage'
-          style={{
-            backgroundImage: `url(${project.preview ? project.preview : ''})`,
-          }}
-        ></div>
+        {project.preview && (
+          <div
+            className='cardImage'
+            style={{
+              backgroundImage: `url(${project.preview})`,
+            }}
+          ></div>
+        )}
+        {!project.preview && (
+          <img
+            class='cardWipImage'
+            src='/assets/images/wip.svg'
+            alt='Work in progress'
+          />
+        )}
       </div>
 
       <div className='card__right'>
@@ -47,6 +55,9 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className='metadata'>
           <div className='metadata__icons'>
+            {project.isWorkInProgress && (
+              <i className='spinner loading icon'></i>
+            )}
             {project.githubLink.length === 0 && <i className='lock icon'></i>}
             <i
               className={`${project.isTeamProject ? 'users' : 'user'} icon`}

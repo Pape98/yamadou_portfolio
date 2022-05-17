@@ -53,7 +53,9 @@ const ProjectModal = () => {
         </div>
         <div className='modal__content'>
           <div className='images'>
-            <Carousel images={project.images ? project.images : []} />
+            <div className='carouselContainer'>
+              <Carousel images={project.images ? project.images : []} />
+            </div>
           </div>
           <div className='details'>
             <div className='modal__yearLink'>

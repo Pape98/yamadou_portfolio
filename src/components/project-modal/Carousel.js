@@ -5,6 +5,13 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 const ImageCarousel = ({ images }) => {
+  if (images.length === 0)
+    return (
+      <Carousel>
+        <img className="carouselWipImage" src='/assets/images/wip2.svg' alt='Work in progress' />
+      </Carousel>
+    );
+
   const carouselItems = images.map(url => {
     return (
       <Carousel.Item key={url}>

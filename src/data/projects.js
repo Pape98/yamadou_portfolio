@@ -1,6 +1,6 @@
 /* 
   Empty string for github link means repo is part of private organization
-  And I cannot fork it
+  And I cannot fork it.
 */
 
 const data = {
@@ -19,7 +19,7 @@ const data = {
                   people which is direct mapping to the general state of the communit garden. My research aims to find ways of qualitative 
                   and metaphorical ways of visualizing data and see the impacts (and maybe the benefits) of tracking as a community.`,
     isTeamProject: false,
-    classProject: false,
+    isWorkInProgress: true,
     preview: '',
     images: [],
   },
@@ -35,7 +35,7 @@ const data = {
                   leveraging google map, and the ability to add news,events, and activies for the board staff and administrators.`,
     preview: '',
     isTeamProject: true,
-    classProject: false,
+    isWorkInProgress: true,
     images: [],
   },
   qualitativeAnalysisTool: {
@@ -52,6 +52,7 @@ const data = {
           with their tags from different documenst using the Google Drive API and created this interface to be able 
           to quickly search access quotes with wanted tags.`,
     isTeamProject: false,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/SN66bwp/Screen-Shot-2022-05-16-at-9-37-47-AM.png',
     images: [
@@ -72,6 +73,7 @@ const data = {
                   was used by a startup (wwww.joinconnectus.com) to present the concept to investors and raise 
                   funds. The startup now over 500 users and has been accepted into accelerator programs.`,
     isTeamProject: true,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/nBXw2GW/Screen-Shot-2022-05-15-at-4-57-30-PM.png',
     images: [
@@ -98,6 +100,7 @@ const data = {
                   Communications can then compile the daily briefing in the order they wish and send Vox
                   out to the Dartmouth community.`,
     isTeamProject: true,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/z8NSNdZ/Screen-Shot-2022-05-16-at-9-58-25-AM.png',
     images: [
@@ -116,6 +119,7 @@ const data = {
     description:
       'Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.',
     isTeamProject: true,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/85hGJMP/Screen-Shot-2022-05-15-at-5-44-36-PM.png',
     images: [
@@ -137,6 +141,7 @@ const data = {
                   Moreover, the game also includes an onboarding system and different learning 
                   modules.`,
     isTeamProject: true,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/sbKcrQh/Screen-Shot-2022-05-16-at-2-08-46-AM.png',
     images: [
@@ -160,6 +165,7 @@ const data = {
                   posts, view other posts, check other profiles, search for other 
                   DALI members.`,
     isTeamProject: false,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/tcKDGqj/Screen-Shot-2022-05-15-at-5-26-26-PM.png',
     images: [
@@ -184,7 +190,7 @@ const data = {
                   A geofence is also implemented, sending an alert to the caretaker when a patient 
                   is out of the geofence (tracking done using wearable worn by patient)`,
     isTeamProject: true,
-    classProject: false,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/3vzhvnK/Screen-Shot-2022-05-15-at-5-19-22-PM.png',
     images: [
@@ -209,6 +215,7 @@ const data = {
                   worksheets and documents to videos, review videos by filling out usability 
                   rubric, and search through videos based on different fields and keywords.`,
     isTeamProject: false,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/DV1gYZT/Screen-Shot-2022-05-15-at-5-07-13-PM.png',
     images: [
@@ -231,6 +238,7 @@ const data = {
                   tools needed to run the organization. Features include members and staff interface
                   points and appeals review and submission, volunteer sign-up sheets, and many others.`,
     isTeamProject: false,
+    isWorkInProgress: false,
     preview:
       'https://i.ibb.co/grgxdP0/Screen-Shot-2022-05-15-at-5-02-43-PM.png',
     images: [

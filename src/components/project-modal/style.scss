@@ -15,6 +15,7 @@
   height: 80%;
   background-color: white;
   animation: showModal 0.5s;
+  border-radius: 25px;
 
   p {
     font-size: 0.9em;
@@ -26,8 +27,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    z-index: 1;
-    height: 30px;
 
     i {
       padding: 10px 10px 10px 0;
@@ -62,7 +61,6 @@
     grid-template-rows: repeat(1fr, 4);
     height: 100%;
     grid-gap: 0.01rem;
-    margin-top: 30px;
 
     .images {
       height: 100%;
@@ -70,6 +68,22 @@
       grid-column-end: 4;
       grid-row-start: 1;
       grid-row-end: 2;
+
+      background-color: #1c1e21;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .carouselContainer {
+        width: 80%;
+
+        .carousel-control-prev
+        .carousel-control-next
+        {
+          display: none;
+        } 
+      }
     }
 
     .summary {
@@ -80,7 +94,7 @@
     .details,
     .summary {
       height: 100%;
-      padding: 0 1rem;
+      padding: 2em;
 
       .label {
         font-size: 1.25em;
@@ -111,6 +125,10 @@
   min-height: 500px;
 }
 
+.carouselWipImage {
+  width: 100%;
+}
+
 @media only screen and (max-width: 1622px) {
   .modal {
     width: 60%;
@@ -122,10 +140,18 @@
   .modal {
     width: 70%;
     left: 15%;
+
+    .modal__content {
+      .details {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding-bottom: 0;
+      }
+    }
   }
 }
 
-@media only screen and (max-width: 617px) {
+@media only screen and (max-width: 650px) {
   .modal {
     width: 80%;
     left: 10%;
