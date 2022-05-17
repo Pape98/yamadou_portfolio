@@ -16,6 +16,7 @@ const Projects = () => {
         <Legend />
         <Tools />
       </div>
+      <div class='emptyContainer'></div>
       <div className='projects__cards'>{cards}</div>
       <ProjectModal />
     </div>
