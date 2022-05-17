@@ -35,7 +35,7 @@
     gap: 3rem;
 
     .container__image {
-      width: 15em;
+      width: 13em;
 
       img {
         width: 100%;
@@ -87,7 +87,20 @@
 }
 
 @media only screen and (max-width: 567px) {
-  #home .container__text {
+  #home .home__container .container__text {
     text-align: center;
+
+     h1 {
+      font-size: 2.0em;
+    }
+
+    .text__title {
+      font-size: 1.05em;
+    } 
+
+    .text__location {
+      font-size: 0.85em;
+    }
+   
   }
 }
