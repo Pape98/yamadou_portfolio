@@ -33,10 +33,10 @@ const data = {
     description: `The goal is to create an experience to introduce people to the notable trees of Lewiston and Auburn (virtual tree tour) and create
                   Community Forest Board Website & identity. Features include ablity to add information about trees, virtual tree tour guide
                   leveraging google map, and the ability to add news,events, and activies for the board staff and administrators.`,
-    preview: 'https://i.ibb.co/jhQtVh2/virtual-tour.png',
+    preview: 'https://i.ibb.co/P9ggbrM/tree-tour.png',
     isTeamProject: true,
     isWorkInProgress: true,
-    images: ['https://i.ibb.co/jhQtVh2/virtual-tour.png'],
+    images: ['https://i.ibb.co/P9ggbrM/tree-tour.png'],
   },
   qualitativeAnalysisTool: {
     title: 'Qualitative Analysis Tool',
