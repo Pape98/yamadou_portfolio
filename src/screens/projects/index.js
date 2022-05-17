@@ -1,4 +1,4 @@
-import { ProjectCard, ProjectModal } from '../../components';
+import { ProjectCard, ProjectModal, Legend, Tools } from '../../components';
 
 import projects from '../../data/projects';
 import { nanoid } from 'nanoid';
@@ -12,6 +12,10 @@ const Projects = () => {
 
   return (
     <div id='projects'>
+      <div className='projects__panel'>
+        <Legend />
+        <Tools />
+      </div>
       <div className='projects__cards'>{cards}</div>
       <ProjectModal />
     </div>

@@ -210,7 +210,7 @@ const data = {
     tags: 'Ruby on Rails,MongoDB,Phusion Passenger',
     description: `The department was going through an archive of videos (3000 hours). 
                   This application replaced their previously used spreadsheets and forms and 
-                  by providing a single repo to both edit and retrieve information.
+                  provided a single repo to both edit and retrieve information.
                   Features include the abiltity to authenticate, add metadata to videos, attach 
                   worksheets and documents to videos, review videos by filling out usability 
                   rubric, and search through videos based on different fields and keywords.`,

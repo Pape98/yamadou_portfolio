@@ -35,7 +35,7 @@ const ProjectCard = ({ project }) => {
         )}
         {!project.preview && (
           <img
-            class='cardWipImage'
+            className='cardWipImage'
             src='/assets/images/wip.svg'
             alt='Work in progress'
           />

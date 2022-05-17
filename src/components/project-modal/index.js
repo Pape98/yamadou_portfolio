@@ -61,9 +61,11 @@ const ProjectModal = () => {
             <div className='modal__yearLink'>
               <div className='label'>Year(s)</div>
               <div className='cardLink'>
-                <a href={project.githubLink}>
-                  <GithubFilled />
-                </a>
+                {project.githubLink !== '' && (
+                  <a href={project.githubLink}>
+                    <GithubFilled />
+                  </a>
+                )}
               </div>
             </div>
             <div className='info'>{project.year}</div>

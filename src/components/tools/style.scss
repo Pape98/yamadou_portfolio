@@ -1,0 +1,13 @@
+.tools {
+
+    .tools__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 10px;
+
+        .tag {
+            color: #5a5a5a;
+        }
+    }
+}
