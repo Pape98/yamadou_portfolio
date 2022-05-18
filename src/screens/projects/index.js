@@ -6,7 +6,7 @@ import { nanoid } from 'nanoid';
 import './style.scss';
 
 const Projects = () => {
-  const cards = Object.values(projects).map(project => (
+  const cards = projects.map(project => (
     <ProjectCard key={nanoid()} project={project} />
   ));
 

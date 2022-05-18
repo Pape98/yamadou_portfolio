@@ -3,8 +3,8 @@
   And I cannot fork it.
 */
 
-const data = {
-  employeeRelationshipManagement: {
+const data = [
+  {
     title: 'Employee Relationship Management Tool',
     summary: 'An employee relationship management tool for managers.',
     githubLink: 'https://github.com/Teogonzalez5/connectus-ui',
@@ -17,6 +17,7 @@ const data = {
                   funds. The startup now over 500 users and has been accepted into accelerator programs.`,
     isTeamProject: true,
     isWorkInProgress: false,
+    appPreviewLink: 'https://connectus-ui.herokuapp.com/',
     preview:
       'https://i.ibb.co/nBXw2GW/Screen-Shot-2022-05-15-at-4-57-30-PM.png',
     images: [
@@ -27,7 +28,7 @@ const data = {
       'https://i.ibb.co/bLS7nWf/Screen-Shot-2022-05-15-at-4-54-52-PM.png',
     ],
   },
-  itcVox: {
+  {
     title: 'ITC Vox',
     summary:
       'A system for Dartmouth College that allows faculty and staff to submit news, events, and announcements.',
@@ -52,7 +53,7 @@ const data = {
       'https://i.ibb.co/Z19yn4D/Screen-Shot-2022-05-16-at-9-58-08-AM.png',
     ],
   },
-  insectInvasion: {
+  {
     title: 'Insect Invasion Model',
     summary:
       'Vox is a system for Dartmouth College that allows faculty and staff to submit news, events, and announcements.',
@@ -63,6 +64,7 @@ const data = {
       'Fugiat duis dolor minim aute ad anim. Officia deserunt dolore consectetur sint ea pariatur deserunt veniam velit. Minim commodo do irure eu deserunt cupidatat cillum velit eu magna.',
     isTeamProject: true,
     isWorkInProgress: false,
+    appPreviewLink: 'https://insect-invasion-dev.netlify.app/',
     preview:
       'https://i.ibb.co/85hGJMP/Screen-Shot-2022-05-15-at-5-44-36-PM.png',
     images: [
@@ -72,11 +74,11 @@ const data = {
       'https://i.ibb.co/80X5Q5z/Screen-Shot-2022-05-15-at-5-43-58-PM.png',
     ],
   },
-  daliChallenge: {
+  {
     title: 'Fake Social Media Platform',
     summary:
       'A social media platform called Dalibook created for the DALI Lab at Dartmouth College.',
-    githubLink: 'isjdjdi',
+    githubLink: 'https://github.com/Pape98/DaliChallenge',
     year: '2020',
     tags: 'NodeJS,Express',
     description: `A social media platformn that is just for DALI members at Darmouth. 
@@ -86,6 +88,7 @@ const data = {
                   DALI members.`,
     isTeamProject: false,
     isWorkInProgress: false,
+    appPreviewLink: 'https://dartdalibook.herokuapp.com/',
     preview:
       'https://i.ibb.co/tcKDGqj/Screen-Shot-2022-05-15-at-5-26-26-PM.png',
     images: [
@@ -97,7 +100,7 @@ const data = {
       'https://i.ibb.co/0f7x5ZJ/Screen-Shot-2022-05-15-at-5-26-16-PM.png',
     ],
   },
-  forestryBoard: {
+  {
     title: 'Community Forest Board Tree Tour',
     summary: `A informational application that updates inhabitants of Aurburn and Lewsiton (ME) about the Community Forest Board and their activities
       and news.`,
@@ -112,7 +115,7 @@ const data = {
     isWorkInProgress: true,
     images: ['https://i.ibb.co/P9ggbrM/tree-tour.png'],
   },
-  careAssist: {
+  {
     title: 'CareAssist: Assistive Technology',
     summary:
       'An interface for nursing home caretakers to get live updates of the status of their patients with dementia.',
@@ -126,6 +129,7 @@ const data = {
                   is out of the geofence (tracking done using wearable worn by patient)`,
     isTeamProject: true,
     isWorkInProgress: false,
+    appPreviewLink: 'https://careassist482.herokuapp.com/',
     preview:
       'https://i.ibb.co/3vzhvnK/Screen-Shot-2022-05-15-at-5-19-22-PM.png',
     images: [
@@ -136,7 +140,7 @@ const data = {
       'https://i.ibb.co/pn0HhHp/Screen-Shot-2022-05-15-at-5-20-00-PM.png',
     ],
   },
-  videoTaggingTool: {
+  {
     title: 'Video Tagging Tool',
     summary:
       "A tool to categorize, tag with keywords, and add timestamps to math videos for Texas A&M's Math department.",
@@ -151,6 +155,7 @@ const data = {
                   rubric, and search through videos based on different fields and keywords.`,
     isTeamProject: false,
     isWorkInProgress: false,
+    appPreviewLink: 'https://tops-video-tool.herokuapp.com/',
     preview:
       'https://i.ibb.co/DV1gYZT/Screen-Shot-2022-05-15-at-5-07-13-PM.png',
     images: [
@@ -160,7 +165,7 @@ const data = {
       'https://i.ibb.co/CKJb1Ff/Screen-Shot-2022-05-15-at-5-07-51-PM.png',
     ],
   },
-  slide: {
+  {
     title: 'Student Organization Management Tool',
     summary:
       'Application that allows student-led organizations to manage day-to-day operations.',
@@ -174,6 +179,7 @@ const data = {
                   points and appeals review and submission, volunteer sign-up sheets, and many others.`,
     isTeamProject: false,
     isWorkInProgress: false,
+    appPreviewLink: 'https://tamuslide.herokuapp.com/home',
     preview:
       'https://i.ibb.co/grgxdP0/Screen-Shot-2022-05-15-at-5-02-43-PM.png',
     images: [
@@ -183,7 +189,7 @@ const data = {
       'https://i.ibb.co/23bQhpd/Screen-Shot-2022-05-15-at-5-02-06-PM.png',
     ],
   },
-  qualitativeAnalysisTool: {
+  {
     title: 'Qualitative Analysis Tool',
     summary:
       'An academic research tool to search through tagged interview quotes.',
@@ -198,6 +204,7 @@ const data = {
           to quickly search access quotes with wanted tags.`,
     isTeamProject: false,
     isWorkInProgress: false,
+    appPreviewLink: 'https://research-needfinfing.web.app/',
     preview:
       'https://i.ibb.co/SN66bwp/Screen-Shot-2022-05-16-at-9-37-47-AM.png',
     images: [
@@ -206,7 +213,7 @@ const data = {
       'https://i.ibb.co/MCM44JG/Screen-Shot-2022-05-16-at-9-38-40-AM.png',
     ],
   },
-  communityGarden: {
+  {
     title: 'Community Garden',
     summary:
       'A self-tracking application that lets user track data with a community in visualize data in a qualitative way. ',
@@ -225,7 +232,7 @@ const data = {
     preview: '',
     images: [],
   },
-  signLanguage: {
+  {
     title: 'Sign Language AR',
     summary: 'A virtual reality game to teach non-deaf people sign language.',
     githubLink: '',
@@ -248,6 +255,6 @@ const data = {
       'https://i.ibb.co/1K8sgpF/Screen-Shot-2022-05-16-at-2-08-14-AM.png',
     ],
   },
-};
+];
 
 export default data;

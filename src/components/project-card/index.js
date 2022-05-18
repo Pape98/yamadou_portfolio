@@ -62,6 +62,7 @@ const ProjectCard = ({ project }) => {
             <i
               className={`${project.isTeamProject ? 'users' : 'user'} icon`}
             ></i>
+            { project.appPreviewLink && <i className='eye icon'></i>}
           </div>
         </div>
       </div>

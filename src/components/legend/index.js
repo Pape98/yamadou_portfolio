@@ -25,6 +25,10 @@ const Legend = () => {
             <i className='lock icon'></i>
             <p>Private organization repo</p>
           </div>
+          <div className='list__item'>
+            <i className='eye icon'></i>
+            <p>Repo has link to preview app</p>
+          </div>
         </div>
       </Segment>
     </div>
