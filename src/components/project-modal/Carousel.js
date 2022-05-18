@@ -1,14 +1,15 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
-
 const ImageCarousel = ({ images }) => {
   if (images.length === 0)
     return (
       <Carousel>
-        <img className="carouselWipImage" src='/assets/images/wip2.svg' alt='Work in progress' />
+        <img
+          className='carouselWipImage'
+          src='/assets/images/wip2.svg'
+          alt='Work in progress'
+        />
       </Carousel>
     );
 
