@@ -4,63 +4,6 @@
 */
 
 const data = {
-  communityGarden: {
-    title: 'Community Garden',
-    summary:
-      'A self-tracking application that lets user track data with a community in visualize data in a qualitative way. ',
-    githubLink: '',
-    year: '2022 - Present',
-    tags: 'iOS,Swift,SwiftUI,SpriteKit,Firebase,React,Redux',
-    description: `This application is a work in progress for my master's research. The idea is to create a virrual environment where
-                  each member of the community is tracking something different. The environment's changes are directly tied to the user's actions.
-                  Is the user making progress? Are they meetings their goals. In our scenario, each user will be growing their own garden with trees
-                  and flowers. The growth of their garden is dependent on them getting for example a certain number of steps. The community view is
-                  presented not on the user's phone, but on a big ambient display, allowing users to walk by and visualizing the general state of 
-                  people which is direct mapping to the general state of the communit garden. My research aims to find ways of qualitative 
-                  and metaphorical ways of visualizing data and see the impacts (and maybe the benefits) of tracking as a community.`,
-    isTeamProject: false,
-    isWorkInProgress: true,
-    preview: '',
-    images: [],
-  },
-  forestryBoard: {
-    title: 'Community Forest Board Tree Tour',
-    summary: `A informational application that updates inhabitants of Aurburn and Lewsiton (ME) about the Community Forest Board and their activities
-      and news.`,
-    githubLink: '',
-    year: '2022 - Present',
-    tags: 'React,Redux,Firebase',
-    description: `The goal is to create an experience to introduce people to the notable trees of Lewiston and Auburn (virtual tree tour) and create
-                  Community Forest Board Website & identity. Features include ablity to add information about trees, virtual tree tour guide
-                  leveraging google map, and the ability to add news,events, and activies for the board staff and administrators.`,
-    preview: 'https://i.ibb.co/P9ggbrM/tree-tour.png',
-    isTeamProject: true,
-    isWorkInProgress: true,
-    images: ['https://i.ibb.co/P9ggbrM/tree-tour.png'],
-  },
-  qualitativeAnalysisTool: {
-    title: 'Qualitative Analysis Tool',
-    summary:
-      'An academic research tool to search through tagged interview quotes.',
-    githubLink: 'https://github.com/Pape98/Qualitative-Analysis-Tool',
-    year: '2022',
-    tags: 'React,Redux,Firebase,Drive API',
-    description: `For my master's research, I had to conduct some user interviews and analyze the data. Analyzing consisted
-          adding codes/tags to important quotes in order to generate categories and subsequently themes. The tagging
-          process was done using Google Docs by just adding comments to quotes. The next step was to combine all the 
-          quotes with similar codes/tags. Instead of manuallay combining the quotes, I extracted all the quotes along
-          with their tags from different documenst using the Google Drive API and created this interface to be able 
-          to quickly search access quotes with wanted tags.`,
-    isTeamProject: false,
-    isWorkInProgress: false,
-    preview:
-      'https://i.ibb.co/SN66bwp/Screen-Shot-2022-05-16-at-9-37-47-AM.png',
-    images: [
-      'https://i.ibb.co/SN66bwp/Screen-Shot-2022-05-16-at-9-37-47-AM.png',
-      'https://i.ibb.co/YtBb79Q/Screen-Shot-2022-05-16-at-9-38-00-AM.png',
-      'https://i.ibb.co/MCM44JG/Screen-Shot-2022-05-16-at-9-38-40-AM.png',
-    ],
-  },
   employeeRelationshipManagement: {
     title: 'Employee Relationship Management Tool',
     summary: 'An employee relationship management tool for managers.',
@@ -113,7 +56,7 @@ const data = {
     title: 'Insect Invasion Model',
     summary:
       'Vox is a system for Dartmouth College that allows faculty and staff to submit news, events, and announcements.',
-    githubLink: 'isjdjdi',
+    githubLink: '',
     year: '2021',
     tags: 'React,Redux,NodeJS,PostgreSQL',
     description:
@@ -127,29 +70,6 @@ const data = {
       'https://i.ibb.co/85hGJMP/Screen-Shot-2022-05-15-at-5-44-36-PM.png',
       'https://i.ibb.co/bKHHjRr/Screen-Shot-2022-05-15-at-5-44-50-PM.png',
       'https://i.ibb.co/80X5Q5z/Screen-Shot-2022-05-15-at-5-43-58-PM.png',
-    ],
-  },
-  signLanguage: {
-    title: 'Sign Language AR',
-    summary: 'A virtual reality game to teach non-deaf people sign language.',
-    githubLink: '',
-    year: '2021',
-    tags: 'Virtual Reality,C#,Unity Engine',
-    description: `A virtual reality application that teaches sign language through gamification. 
-                  Players have the option to sign both letters and words. The player is in a 
-                  space scene and a robot serves as the teacher and provides visual feedback. 
-                  Moreover, the game also includes an onboarding system and different learning 
-                  modules.`,
-    isTeamProject: true,
-    isWorkInProgress: false,
-    preview:
-      'https://i.ibb.co/sbKcrQh/Screen-Shot-2022-05-16-at-2-08-46-AM.png',
-    images: [
-      'https://i.ibb.co/9y3FpJL/Screen-Shot-2022-05-16-at-2-09-35-AM.png',
-      'https://i.ibb.co/H7nB7hx/Screen-Shot-2022-05-16-at-2-09-18-AM.png',
-      'https://i.ibb.co/sbKcrQh/Screen-Shot-2022-05-16-at-2-08-46-AM.png',
-      'https://i.ibb.co/3p5mCTC/Screen-Shot-2022-05-16-at-2-08-38-AM.png',
-      'https://i.ibb.co/1K8sgpF/Screen-Shot-2022-05-16-at-2-08-14-AM.png',
     ],
   },
   daliChallenge: {
@@ -176,6 +96,21 @@ const data = {
       'https://i.ibb.co/Kjsrj2D/Screen-Shot-2022-05-15-at-5-27-44-PM.png',
       'https://i.ibb.co/0f7x5ZJ/Screen-Shot-2022-05-15-at-5-26-16-PM.png',
     ],
+  },
+  forestryBoard: {
+    title: 'Community Forest Board Tree Tour',
+    summary: `A informational application that updates inhabitants of Aurburn and Lewsiton (ME) about the Community Forest Board and their activities
+      and news.`,
+    githubLink: '',
+    year: '2022 - Present',
+    tags: 'React,Redux,Firebase',
+    description: `The goal is to create an experience to introduce people to the notable trees of Lewiston and Auburn (virtual tree tour) and create
+                  Community Forest Board Website & identity. Features include ablity to add information about trees, virtual tree tour guide
+                  leveraging google map, and the ability to add news,events, and activies for the board staff and administrators.`,
+    preview: 'https://i.ibb.co/P9ggbrM/tree-tour.png',
+    isTeamProject: true,
+    isWorkInProgress: true,
+    images: ['https://i.ibb.co/P9ggbrM/tree-tour.png'],
   },
   careAssist: {
     title: 'CareAssist: Assistive Technology',
@@ -246,6 +181,71 @@ const data = {
       'https://i.ibb.co/grgxdP0/Screen-Shot-2022-05-15-at-5-02-43-PM.png',
       'https://i.ibb.co/k9TnKLY/Screen-Shot-2022-05-15-at-5-03-04-PM.png',
       'https://i.ibb.co/23bQhpd/Screen-Shot-2022-05-15-at-5-02-06-PM.png',
+    ],
+  },
+  qualitativeAnalysisTool: {
+    title: 'Qualitative Analysis Tool',
+    summary:
+      'An academic research tool to search through tagged interview quotes.',
+    githubLink: 'https://github.com/Pape98/Qualitative-Analysis-Tool',
+    year: '2022',
+    tags: 'React,Redux,Firebase,Drive API',
+    description: `For my master's research, I had to conduct some user interviews and analyze the data. Analyzing consisted
+          adding codes/tags to important quotes in order to generate categories and subsequently themes. The tagging
+          process was done using Google Docs by just adding comments to quotes. The next step was to combine all the 
+          quotes with similar codes/tags. Instead of manuallay combining the quotes, I extracted all the quotes along
+          with their tags from different documenst using the Google Drive API and created this interface to be able 
+          to quickly search access quotes with wanted tags.`,
+    isTeamProject: false,
+    isWorkInProgress: false,
+    preview:
+      'https://i.ibb.co/SN66bwp/Screen-Shot-2022-05-16-at-9-37-47-AM.png',
+    images: [
+      'https://i.ibb.co/SN66bwp/Screen-Shot-2022-05-16-at-9-37-47-AM.png',
+      'https://i.ibb.co/YtBb79Q/Screen-Shot-2022-05-16-at-9-38-00-AM.png',
+      'https://i.ibb.co/MCM44JG/Screen-Shot-2022-05-16-at-9-38-40-AM.png',
+    ],
+  },
+  communityGarden: {
+    title: 'Community Garden',
+    summary:
+      'A self-tracking application that lets user track data with a community in visualize data in a qualitative way. ',
+    githubLink: '',
+    year: '2022 - Present',
+    tags: 'iOS,Swift,SwiftUI,SpriteKit,Firebase,React,Redux',
+    description: `This application is a work in progress for my master's research. The idea is to create a virrual environment where
+                  each member of the community is tracking something different. The environment's changes are directly tied to the user's actions.
+                  Is the user making progress? Are they meetings their goals. In our scenario, each user will be growing their own garden with trees
+                  and flowers. The growth of their garden is dependent on them getting for example a certain number of steps. The community view is
+                  presented not on the user's phone, but on a big ambient display, allowing users to walk by and visualizing the general state of 
+                  people which is direct mapping to the general state of the communit garden. My research aims to find ways of qualitative 
+                  and metaphorical ways of visualizing data and see the impacts (and maybe the benefits) of tracking as a community.`,
+    isTeamProject: false,
+    isWorkInProgress: true,
+    preview: '',
+    images: [],
+  },
+  signLanguage: {
+    title: 'Sign Language AR',
+    summary: 'A virtual reality game to teach non-deaf people sign language.',
+    githubLink: '',
+    year: '2021',
+    tags: 'Virtual Reality,C#,Unity Engine',
+    description: `A virtual reality application that teaches sign language through gamification. 
+                  Players have the option to sign both letters and words. The player is in a 
+                  space scene and a robot serves as the teacher and provides visual feedback. 
+                  Moreover, the game also includes an onboarding system and different learning 
+                  modules.`,
+    isTeamProject: true,
+    isWorkInProgress: false,
+    preview:
+      'https://i.ibb.co/sbKcrQh/Screen-Shot-2022-05-16-at-2-08-46-AM.png',
+    images: [
+      'https://i.ibb.co/9y3FpJL/Screen-Shot-2022-05-16-at-2-09-35-AM.png',
+      'https://i.ibb.co/H7nB7hx/Screen-Shot-2022-05-16-at-2-09-18-AM.png',
+      'https://i.ibb.co/sbKcrQh/Screen-Shot-2022-05-16-at-2-08-46-AM.png',
+      'https://i.ibb.co/3p5mCTC/Screen-Shot-2022-05-16-at-2-08-38-AM.png',
+      'https://i.ibb.co/1K8sgpF/Screen-Shot-2022-05-16-at-2-08-14-AM.png',
     ],
   },
 };
