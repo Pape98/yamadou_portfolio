@@ -9,25 +9,15 @@
   height: 3rem;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 
-  .footer__love,
-  .footer__links,
-  .footer__name {
-    width: 33.3%;
-    display: flex;
-  }
-
   .footer__links {
+    display: flex;
     justify-content: flex-end;
     gap: 10px;
   }
 
-  .footer__love {
-    justify-content: center;
-    align-items: center;
-  }
 
   svg {
     color: #1c1e21;
