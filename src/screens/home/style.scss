@@ -7,15 +7,15 @@
 
   .homeButton {
     border: 1px solid #1c1e21;
-    padding: 1em 1.75em;
-    font-size: 1.1em;
+    padding: 0.8em 1.55em;
+    font-size: 1em;
     display: flex;
     align-items: center;
     gap: 12.5px;
     transition: all 0.25s,
       transform 0.25s;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 50px;
     color: #1c1e21;
     text-decoration: none;
@@ -34,34 +34,22 @@
     flex-wrap: wrap;
     gap: 3rem;
 
-    .container__image {
-      width: 13em;
-
-      img {
-        width: 100%;
-        border-radius: 50%;
-      }
-    }
 
     .container__text {
       min-width: 20rem;
+      text-align: center;
 
       h1 {
-        font-size: 2.75em;
-        margin: 0;
+        font-size: 4em;
+        margin-bottom: 0.2em;
         font-weight: 400;
       }
 
       .text__title {
-        font-size: 1.75em;
-        font-weight: 300;
+        font-size: 1.2em;
+        color: rgba(0,0,0,.67);
       }
 
-      .text__location {
-        font-size: 1.25em;
-        font-style: italic;
-        font-weight: 200;
-      }
     }
   }
 

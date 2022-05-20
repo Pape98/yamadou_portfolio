@@ -1,6 +1,6 @@
 #menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 3rem;
   margin-bottom: 2rem;
@@ -15,7 +15,7 @@
     display: flex;
     list-style: none;
     gap: 2em;
-    margin: 0;
+    margin: 2em;
     padding: 0;
   }
 
@@ -29,6 +29,6 @@
   }
 
   .menu-item--selected {
-    font-weight: 400;
+    font-weight: 500;
   }
 }
