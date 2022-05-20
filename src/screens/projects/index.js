@@ -1,4 +1,7 @@
-import { ProjectCard, ProjectModal, Legend, Tools } from '../../components';
+import ProjectModal from './components/project-modal';
+import ProjectCard from './components/project-card';
+import Legend from './components/legend';
+import Tools from './components/tools';
 
 import projects from '../../data/projects';
 import { nanoid } from 'nanoid';

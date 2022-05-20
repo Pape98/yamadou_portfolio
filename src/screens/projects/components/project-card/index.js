@@ -1,9 +1,9 @@
 import { useContext } from 'react';
 import { nanoid } from 'nanoid';
 
-import { StoreContext } from '../../contexts';
-import { ACTIONS, TAG_COLORS } from '../../constants';
-import { Tag } from '..';
+import { StoreContext } from '../../../../contexts';
+import { ACTIONS, TAG_COLORS } from '../../../../constants';
+import { Tag } from '../../../../components';
 import './style.scss';
 
 const ProjectCard = ({ project }) => {
@@ -62,7 +62,7 @@ const ProjectCard = ({ project }) => {
             <i
               className={`${project.isTeamProject ? 'users' : 'user'} icon`}
             ></i>
-            { project.appPreviewLink && <i className='eye icon'></i>}
+            {project.appPreviewLink && <i className='eye icon'></i>}
           </div>
         </div>
       </div>

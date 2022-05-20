@@ -19,6 +19,13 @@ const Menu = () => {
         </Link>
 
         <Link
+          to={ROUTES.about}
+          className={pathname === '' ? 'menu-item--selected' : 'menu-item'}
+        >
+          <li>About</li>
+        </Link>
+
+        <Link
           to={ROUTES.projects}
           className={
             pathname === ROUTES.projects ? 'menu-item--selected' : 'menu-item'

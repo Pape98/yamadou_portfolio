@@ -3,9 +3,9 @@ import { nanoid } from 'nanoid';
 import { GithubFilled } from '@ant-design/icons';
 
 import Carousel from './Carousel';
-import { Tag } from '..';
-import { StoreContext } from '../../contexts';
-import { ACTIONS, TAG_COLORS } from '../../constants';
+import { Tag } from '../../../../components';
+import { StoreContext } from '../../../../contexts';
+import { ACTIONS, TAG_COLORS } from '../../../../constants';
 
 import './style.scss';
 

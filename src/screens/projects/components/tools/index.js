@@ -1,6 +1,5 @@
-import Segment from '../segment';
-import Tag from '../tag';
-import { TAG_COLORS } from '../../constants';
+import { Tag, Segment } from '../../../../components';
+import { TAG_COLORS } from '../../../../constants';
 
 import './style.scss';
 

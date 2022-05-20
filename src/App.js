@@ -31,6 +31,7 @@ const App = () => {
         <Menu />
         <div id='mainContainer'>
           <Routes>
+            <Route path={ROUTES.about} element={<Screens.About />} />
             <Route path={ROUTES.home} element={<Screens.Home />} />
             <Route path={ROUTES.projects} element={<Screens.Projects />} />
           </Routes>

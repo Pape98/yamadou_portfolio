@@ -1,11 +1,22 @@
+import { useEffect } from 'react';
 import { ArrowRightOutlined } from '@ant-design/icons';
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { ROUTES } from '../../constants';
 
-import { SenegalFlag } from '../../components';
 import './style.scss';
 
 const Intro = () => {
+  useEffect(() => {
+    const fetchQuote = async () => {
+      const quote = await axios.get(
+        'https://game-of-thrones-quotes.herokuapp.com/v1/random'
+      );
+      console.log(quote);
+    };
+
+    fetchQuote();
+  }, []);
   return (
     <div id='home'>
       <div className='home__container'>
