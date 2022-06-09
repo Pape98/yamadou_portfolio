@@ -36,7 +36,7 @@ const Menu = () => {
         >
           <li>Projects</li>
         </Link>
-        <a href = {resume} target = "_blank" rel="noreferrer">Resume</a>
+        <a className="menu-item" href = {resume} target = "_blank" rel="noreferrer">Resume</a>
       </ul>
     </nav>
   );
