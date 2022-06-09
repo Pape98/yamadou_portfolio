@@ -1,0 +1,27 @@
+.aboutCard {
+    .segment {
+        padding: 0;
+        width: 240px;
+        height: 336px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .background {
+        height: 90%;
+        width: 90%;
+        background-color: #f66b0e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .content {
+        height: 90%;
+        width: 90%;
+  
+        border: 1px solid white;
+        }
+    }
+    
+}

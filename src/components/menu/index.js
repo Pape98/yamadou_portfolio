@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 import { ROUTES } from '../../constants';
+import resume from '../../documents/resume.pdf'
 import './style.scss';
 
 const Menu = () => {
@@ -18,12 +19,14 @@ const Menu = () => {
           <li>Home</li>
         </Link>
 
-        <Link
+        {/* <Link
           to={ROUTES.about}
-          className={pathname === '' ? 'menu-item--selected' : 'menu-item'}
+          className={
+            pathname === ROUTES.about ? 'menu-item--selected' : 'menu-item'
+          }
         >
           <li>About</li>
-        </Link>
+        </Link> */}
 
         <Link
           to={ROUTES.projects}
@@ -33,6 +36,7 @@ const Menu = () => {
         >
           <li>Projects</li>
         </Link>
+        <a href = {resume} target = "_blank" rel="noreferrer">Resume</a>
       </ul>
     </nav>
   );

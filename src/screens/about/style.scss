@@ -1,0 +1,13 @@
+#about {
+
+    height: 100%;
+
+  .about__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px);
+    grid-gap: 20px;
+
+    justify-content: center;
+    align-content: center;
+  }
+}
