@@ -52,6 +52,30 @@
 
     }
   }
+  
+  .home__companies {
+     margin-top: 2.5rem;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+
+     p {
+      font-size: 1.20rem;
+      text-align: center;
+     }
+
+     .logos {
+      margin-top: 2em;
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 35px;
+     }
+
+     .logos img {
+      height: 130px;
+      width: 130px;
+     }
+  }
 
   @keyframes showEmoji {
     from {
@@ -101,4 +125,8 @@
   #home .home__container  {
     gap: 1.5em;
   }
+
+  .logos {
+      grid-template-columns: 1fr 1fr !important;
+     }
 }
