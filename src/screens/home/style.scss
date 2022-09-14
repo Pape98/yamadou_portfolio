@@ -72,8 +72,11 @@
      }
 
      .logos img {
-      height: 130px;
-      width: 130px;
+      display: block;
+      max-width: 200px;
+      max-height: 200px;
+      height: auto;
+      width: auto;
      }
   }
 

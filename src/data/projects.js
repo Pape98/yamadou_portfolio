@@ -5,21 +5,18 @@
 
 const data = [
   {
-    title: 'Employee Relationship Management Tool',
-    summary: 'An employee relationship management tool for managers.',
-    githubLink: 'https://github.com/Teogonzalez5/connectus-ui',
-    year: '2021',
+    title: 'Laposte.net – Votre boîte mail',
+    summary: 'National postal service of France mailing app.',
+    githubLink: 'https://apps.apple.com/fr/app/laposte-net-votre-bo%C3%AEte-mail/id149562915',
+    year: '2022',
     tags: 'React,Microsoft Azure,Redux,NodeJS,PostgreSQL',
-    description: `This prototype demonstrates the concept of pre 1:1 and post 1:1. Managers get to schedule 
-                  meetings with their employees, take notes, and transfer those notes to the following 
-                  meetings. Both manager and employee can take personal notes about each other. This prototype
-                  was used by a startup (wwww.joinconnectus.com) to present the concept to investors and raise 
-                  funds. The startup now over 500 users and has been accepted into accelerator programs.`,
+    description: `The official Laposte.net mailing app brings the best of Laposte.net to your iPhone or iPad with robust security, real-time notifications,
+                   multiple account support, and search that works across all your mail.`,
     isTeamProject: true,
-    isWorkInProgress: false,
-    appPreviewLink: 'https://connectus-ui.herokuapp.com/',
+    isWorkInProgress: true,
+    appPreviewLink: 'https://apps.apple.com/fr/app/laposte-net-votre-bo%C3%AEte-mail/id149562915',
     preview:
-      'https://i.ibb.co/nBXw2GW/Screen-Shot-2022-05-15-at-4-57-30-PM.png',
+      'https://i.ibb.co/7nDp3W4/Screen-Shot-2022-09-13-at-20-09-10.png',
     images: [
       'https://i.ibb.co/pnH5VfG/connectus1.png',
       'https://i.ibb.co/b55ScBz/Screen-Shot-2022-05-15-at-4-55-16-PM.png',
@@ -258,3 +255,5 @@ const data = [
 ];
 
 export default data;
+
+

@@ -16,11 +16,10 @@ const Intro = () => {
       <div className='home__container'>
         <div className='container__text'>
           <h1>
-            Hi, I am <span className='text__name'>Pape</span>{' '}
-            <span className='text__emoji'>&#128512;</span>
+            Hi, I am <span className='text__name'>Yamadou</span>{' '}
           </h1>
           <div className='text__title'>
-            Software Developer @ Dartmouth College
+            iOS Developer @ Worldline SA 
           </div>
         </div>
       </div>
