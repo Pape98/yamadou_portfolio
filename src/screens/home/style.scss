@@ -118,6 +118,10 @@
     }
    
   }
+
+  .logos {
+    grid-template-columns: 0.5fr 0.5fr !important;
+   }
 }
 
 @media only screen and (max-width: 765px) {
