@@ -24,25 +24,13 @@ const ProjectCard = ({ project }) => {
         dispatch({ type: ACTIONS.SELECT_PROJECT, payload: project });
       }}
     >
-      <div className='card__left'>
-        {project.preview && (
-          <div
-            className='cardImage'
-            style={{
-              backgroundImage: `url(${project.preview})`,
-            }}
-          ></div>
-        )}
-        {!project.preview && (
-          <img
-            className='cardWipImage'
-            src='/assets/images/wip.svg'
-            alt='Work in progress'
-          />
-        )}
-      </div>
 
-      <div className='card__right'>
+        {project.preview && (
+         <div class="cardImage">
+           <img src={project.preview} alt={project.title} />
+         </div>
+        )}
+
         <div>
           <div className='cardTitleLink'>
             <h5 className='cardTitle'>{project.title}</h5>
@@ -64,7 +52,7 @@ const ProjectCard = ({ project }) => {
             ></i>
             {project.appPreviewLink && <i className='eye icon'></i>}
           </div>
-        </div>
+      
       </div>
     </div>
   );

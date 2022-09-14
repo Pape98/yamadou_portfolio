@@ -14,13 +14,14 @@
     width: 20%;
   }
   .projects__cards {
-    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media only screen and (max-width: 913px) {
+@media only screen and (max-width: 1400px) {
   #projects .projects__cards {
-    width: 90%;
+        grid-template-columns: 1fr;
   }
 }
 
